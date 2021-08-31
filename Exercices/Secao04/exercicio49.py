@@ -1,8 +1,8 @@
-print('Digite o horário (hora, minuto(s) e segundo(s)) e qual foi a duração em segundos')
-hora = int(input())
-min = int(input())
-seg = int(input())
-duracao_seg = int(input())
+print('Digite o horário (hora, minuto(s) e segundo(s)) e qual foi a duração em segundos, para uma experiência biológica')
+hora = int(input('Hora(s): '))
+min = int(input('Minuto(s): '))
+seg = int(input('Segundo(s): '))
+duracao_seg = int(input('Duração em segundos: '))
 hora = hora * 3600
 min = min * 600
 totalSegundos = hora + min + seg + duracao_seg

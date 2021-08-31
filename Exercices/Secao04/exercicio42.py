@@ -1,6 +1,6 @@
 print('Digite o salário-base do funcioário, que tem 5% de gratificação sobre o salário '
       'e que paga 7% de imposto sobre o salário')
-salario_base = float(input())
+salario_base = float(input('Salário Base: '))
 gartificacao = salario_base * (5 / 100)
 salario_gratificado = salario_base + gartificacao
 imposto = salario_base * (7 / 100)

@@ -1,7 +1,5 @@
-print('Digite o valor do produto e este receberá: 10% de desconto, o valor do parcelamento em 3 vezes sem juros, '
-      'a comissão do vendedor caso da compra seja à vista (5% do valor do produto com desconto)'
-      ' e a comissão do vendedor caso a compra seja parcelada (5% do valor do produto')
-produto = float(input())
+print('Digite o valor do produto e este receberá: 10% de desconto, o valor do parcelamento em 3 vezes sem juros, a comissão do vendedor caso da compra seja à vista (5% do valor do produto com desconto) e a comissão do vendedor caso a compra seja parcelada (5% do valor do produto')
+produto = float(input('Preço: '))
 desconto = produto * (10 / 100)
 produto_desconto = produto - desconto
 parcelado = produto / 3
